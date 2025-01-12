@@ -1,6 +1,8 @@
-# luxiang_score
+# HideScore
 
-屏蔽掉赛事（足球、篮球）录像页面（咪咕、腾讯）的比分 ～～～ Chrome、Via 可用 🤗🤗🤗
+屏蔽掉赛事（足球、篮球）录像页面（咪咕、腾讯）比分的脚本插件 ～～～ 
+
+Chrome、Via 可用 🤗🤗🤗 
 
 使用前：
 
@@ -26,15 +28,15 @@
 
 ![image](doc/via_0.jpg)
 
-2. 选择脚本
+2. 选择 `脚本`
 
 ![image](doc/via_1.jpg)
 
-3. 添加脚本
+3. 选择 `导入脚本` ，浏览手机文件，选择 `content_via.js`
 
 ![image](doc/via_2.jpg)
 
-4. 复制 `content.js` 中的所有代码，覆盖原来 `function` 的地方
+4. 确认安装
 
 ![image](doc/via_3.jpg)
 
@@ -45,3 +47,7 @@
 Via 使用的时候需要使用 `电脑模式`
 
 🤗🤗🤗
+
+## 目前已知问题
+
+- Via 中腾讯视频页面不起作用
