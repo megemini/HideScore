@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "足球比分屏蔽插件",
+  "version": "1.0",
+  "description": "屏蔽页面中的足球赛事比分",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
